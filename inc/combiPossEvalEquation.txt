@@ -1,0 +1,46 @@
+liste des combinaisons possibles pour evaluer une equation
+
+liste des equations avec 6 plaques
+00 : nb1 op1 nb2 op2 nb3 op3 nb4 op4 nb5 op5 nb6
+01 : ( nb1 op1 nb2 ) op2 nb3 op3 nb4 op4 nb5 op5 nb6
+02 : ( nb1 op1 nb2 ) op2 ( nb3 op3 nb4 ) op4 nb5 op5 nb6
+03 : ( nb1 op1 nb2 ) op2 nb3 op3 ( nb4 op4 nb5 ) op5 nb6        => redondant avec 02
+04 : ( nb1 op1 nb2 ) op2 nb3 op3 nb4 op4 ( nb5 op5 nb6 )        => redondant avec 02
+05 : ( nb1 op1 nb2 ) op2 ( nb3 op3 nb4 ) op4 ( nb5 op5 nb6 )
+06 : ( nb1 op1 nb2 ) op2 ( nb3 op3 nb4 op4 nb5 ) op5 nb6
+07 : ( nb1 op1 nb2 op2 nb3 ) op3 nb4 op4 nb5 op5 nb6
+08 : ( nb1 op1 nb2 op2 nb3 ) op3 ( nb4 op4 nb5 ) op5 nb6
+09 : ( nb1 op1 nb2 op2 nb3 ) op3 nb4 op4 ( nb5 op5 nb6 )        => redondant avec 08
+10 : ( nb1 op1 nb2 op2 nb3 ) op3 ( nb4 op4 nb5 op5 nb6 )
+11 : ( nb1 op1 nb2 op2 nb3 op3 nb4 ) op4 nb5 op5 nb6
+12 : ( nb1 op1 nb2 op2 nb3 op3 nb4 ) op4 ( nb5 op5 nb6 )
+13 : nb1 op1 ( nb2 op2 nb3 op3 nb4 ) op4 ( nb5 op5 nb6 )
+32 : (( nb1 op1 nb2 ) op2 nb3 op3 nb4 ) op4 nb5 op5 nb6 
+33 : (( nb1 op1 nb2 ) op2 nb3 op3 nb4 ) op4 ( nb5 op5 nb6 )
+34 : (( nb1 op1 nb2 op2 nb3 ) op3 nb4 op4 nb5 ) op5 nb6
+
+liste des equations avec 5 plaques
+14 : nb1 op1 nb2 op2 nb3 op3 nb4 op4 nb5
+15 : ( nb1 op1 nb2 ) op2 nb3 op3 nb4 op4 nb5
+16 : ( nb1 op1 nb2 ) op2 ( nb3 op3 nb4 ) op4 nb5
+17 : ( nb1 op1 nb2 ) op2 nb3 op3 ( nb4 op4 nb5 )                => redondant avec 16
+18 : ( nb1 op1 nb2 ) op2 ( nb3 op3 nb4 op4 nb5 )
+19 : ( nb1 op1 nb2 op2 nb3 ) op3 nb4 op4 nb5
+20 : ( nb1 op1 nb2 op2 nb3 ) op3 ( nb4 op4 nb5 )
+21 : ( nb1 op1 nb2 op2 nb3 op3 nb4 ) op4 nb5
+22 : nb1 op1 ( nb2 op2 nb3 op3 nb4 ) op4 nb5
+
+liste des equations avec 4 plaques
+23 : nb1 op1 nb2 op2 nb3 op3 nb4
+24 : ( nb1 op1 nb2 ) op2 nb3 op3 nb4
+25 : ( nb1 op1 nb2 ) op2 ( nb3 op3 nb4 )
+26 : ( nb1 op1 nb2 op2 nb3 ) op3 nb4
+27 : nb1 op1 ( nb2 op2 nb3 op3 nb4 )
+
+liste des equations avec 3 plaques
+28 : nb1 op1 nb2 op2 nb3
+29 : ( nb1 op1 nb2 ) op2 nb3
+30 : nb1 op1 ( nb2 op2 nb3 )
+
+liste des equations avec 2 plaques
+31 : nb1 op1 nb2

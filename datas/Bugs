@@ -1,0 +1,20 @@
+Bugs a traites
+
+etre capable de trouver des solutions n'utilisant qu'une partie des paques
+
+./leCompteEstBon -t 801 -p 4 75 5 1 7 4 
+    la solution (7 + 4) * 75 - 4 * (5 + 1) = 801 non trouvée
+    avec calcul : proposition a 636 = 4 * 5 * 7 * 4 + 75 + 1
+    avec calcul2 : le compte est bon = (4+7)*75-4*(5+1)
+
+ ./leCompteEstBon -t 800 -p 9 8 5 7 2 4
+    avec calcul : 
+        la solution 7-2 * 5 * 4 * 8 = 800 non rouvee proposition a 748
+    avec calcul2 : resolu
+        proposition a 802 = (9+7+4)*8*5+2 
+        pb utilisation de toutes les plaques alors que la solution n'utilise que 5 plaques
+
+suppression de la methode calcul, remplacement par calcul2
+./leCompteEstBon -t 691 -p 9 10 1 6 3 4
+    solution la plus proche trouvee : 692 = (9*6)*(1+3*4)-10
+    solution possible : ((4+3)*9+6)*10+1 

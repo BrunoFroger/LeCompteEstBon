@@ -1,0 +1,5 @@
+s'approcher par calcul le plus pres possible d'un nombre compris entre 100 et 999 grace au tirage de 6 plaques 
+Le soperations autorisees sont : + - * /
+seuls les nombres entiers positifs sont admis a l'issu de chaque opération
+les 24 plaques disponibles pour le tirages sont : 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7 , 7, 8, 8, 9, 9, 10, 10, 25, 50 ,75 , 100
+le joueur a 45 secondes pour resoudre ou s'pprocher au plus pres du resultat
